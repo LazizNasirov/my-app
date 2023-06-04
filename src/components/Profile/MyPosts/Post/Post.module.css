@@ -1,0 +1,27 @@
+.item {
+  color: chocolate;
+}
+
+.item_text {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
+  align-items: center;
+}
+
+.img_Like {
+  width: 20px;
+  border-radius: 2px; 
+}
+
+.img_avatar {
+  width: 40px;
+  border-radius: 20px;
+}
+
+.item span {
+  color: blue;
+  font-style: oblique;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: unset;
+}
+

@@ -1,31 +1,23 @@
 import React from "react";
 import s from './MyPosts.module.css';
+import Post from "./Post/Post";
 
 
 const MyPosts = () => {
 
-  return <div className={s.item}>
+  return <div className={s.posts}>
 
     <div>
       <textarea></textarea>
       <button>Add post</button>
     </div>
 
-    <div className={s.item}>
+    <div className={s.posts}>
       new post
     </div>
-    <div className={s.item}>
-      <img src="https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-PNG-Picture.png"></img>
-      post2
-    </div>
-    <div className={s.item}>
-      <img src="https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-PNG-Picture.png"></img>
-      post3
-    </div>
-    <div className={s.item}>
-      <img src="https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-PNG-Picture.png"></img>
-      post4
-    </div>        
+    <Post />     
+    <Post />     
+    <Post />     
   </div>
 
 
