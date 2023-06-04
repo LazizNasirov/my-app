@@ -6,12 +6,10 @@
 
 .img1 {
   width: 40%;
+  opacity: 60%;
 }
 
 .img2 {
-  width: 20%;
-}
-
-.item {
-  color: chocolate;
+  width: 10%;
+  border-radius: 10px;
 }
