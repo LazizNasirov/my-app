@@ -25,6 +25,9 @@ const Profile = () => {
       <div>
         Savol 4
       </div>
+      <div>
+        Savol 5
+      </div>
     </div>
   </div>
 
