@@ -5,7 +5,7 @@ import s from './Profile.module.css';
 
 const Profile = () => {
 
-  return <div className={s.content}>
+  return <div>
     <div>
       <img className={s.img1} src='https://cdn.shopify.com/s/files/1/0070/7032/files/best-free-stock-photo-websites.jpg?v=1619036042&width=1024'></img>
     </div>
